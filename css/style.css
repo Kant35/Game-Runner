@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.scene{
+	position: relative;
+	width:960px;
+	height: 640px;
+	background: #74c9c9;
+	overflow: hidden;
+	background: -moz-linear-gradient(top, #bed4e5  0%, #74c9c9 100%);
+	background: -webkit-linear-gradient(top, #bed4e5  0%, #74c9c9 100%);
+	background: linear-gradient(to bottom, #bed4e5  0%, #74c9c9 100%);
+}
+.decor{
+	position: absolute;
+	display: flex;
+	left: 0;
+	bottom: 0;
+	/* background: #f00; */
+}
+.decor-panel{
+	display: flex;
+	flex-wrap: wrap;
+}
+.sprite{
+	position: relative;
+	overflow: hidden;
+}
+.enemy{
+	position: absolute;
+}
